@@ -463,6 +463,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991px) {
+   .img-fluid-hero{
+ 
+    height: 34rem;
+    width: 100rem; 
+    padding-right: 160px;
+  } 
   #hero {
     padding-top: 80px;
   }
@@ -474,7 +480,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    max-width: 50%;
+    max-width: 100rem;
   }
   #hero h1 {
     font-size: 28px;
@@ -490,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 34rem;
   }
 }
 
