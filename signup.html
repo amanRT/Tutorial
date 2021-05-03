@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sign up</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+   <link href="assets/img/logo.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ <!-- Vendor CSS Files -->
+ <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+ <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+ <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+ <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+
+
+  <!-- Template Main CSS File -->
+
+  <link href="assets/css/signup.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <div class="logo">
+      <h1><a href="index.html"><span>TechAtom</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    </div>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+        <li class="dropdown"><a href="#"><span>Tutorials</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="python.html">Python</a></li>
+            <li><a href="python.html">JavaScript</a></li>
+            <li><a href="python.html">C</a></li>
+            <li><a href="python.html">C++</a></li>
+            <li><a href="python.html">Java</a></li>
+            <li><a href="python.html">Kotlin</a></li>
+            <li><a href="python.html">Swift</a></li>
+            <li><a href="python.html">C#</a></li>
+            <li><a href="python.html">DSA</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Examples</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="python.html">Python</a></li>
+            <li><a href="python.html">JavaScript</a></li>
+            <li><a href="python.html">C</a></li>
+            <li><a href="python.html">C++</a></li>
+            <li><a href="python.html">Java</a></li>
+            <li><a href="python.html">Kotlin</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="about.html">About</a></li>
+        <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+        <li ><a   class="nav-link scrollto" href="login.html">Login</a></li>
+        <li><a class="nav-link scrollto active" href="signup.html" data-toggle="modal" >Sign Up</a></li>         
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+
+
+
+<div class="container">
+  <div class="row py-5 mt-4 align-items-center">
+      <!-- For Demo Purpose -->
+      <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
+          <img src="https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
+          <h1>Create an Account</h1>
+          <p class="font-italic text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mattis dui. Fusce egestas nunc orci, nec vehicula elit feugiat et. Suspendisse mattis augue elit, vel faucibus ligula fringilla id. Sed bibendum pretium erat, quis aliquet orci dignissim non. Quisque non ex nisl. Duis dapibus sit amet elit nec pulvinar. Sed sed eros et lorem bibendum laoreet.</p>
+    
+      </div>
+
+      <!-- Registeration Form -->
+      <div class="col-md-7 col-lg-6 ml-auto">
+          <form action="#">
+              <div class="row">
+                     
+                  <!-- First Name -->
+                  <div class="input-group col-lg-6 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-user text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white border-left-0 border-md">
+                  </div>
+
+                  <!-- Last Name -->
+                  <div class="input-group col-lg-6 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-user text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md">
+                  </div>
+
+                  <!-- Email Address -->
+                  <div class="input-group col-lg-12 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-envelope text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md">
+                  </div>
+
+                  <!-- Phone Number -->
+                  <div class="input-group col-lg-12 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-phone-square text-muted"></i>
+                          </span>
+                      </div>
+                  
+                      <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
+                  </div>
+
+                  <!-- Password -->
+                  <div class="input-group col-lg-6 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-lock text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+                  </div>
+
+                  <!-- Password Confirmation -->
+                  <div class="input-group col-lg-6 mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-lock text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md">
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="form-group-login col-lg-12 mx-auto mb-0">
+                      <a href="#" class="btn btn-primary btn-block py-2 btn-login">
+                          <span class="font-weight-bold">Create your account</span>
+                      </a>
+                  </div>
+
+                  <!-- Divider Text -->
+                  <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
+                      <div class="border-bottom w-100 ml-5"></div>
+                      <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
+                      <div class="border-bottom w-100 mr-5"></div>
+                  </div>
+
+                  <!-- Social Login -->
+                  <div class="form-group col-lg-12 mx-auto">
+                      <a href="#" class="btn btn-primary btn-block py-2 btn-google">
+                          <i class="fab fa-google"></i>
+                          <span class="font-weight-bold">Login with Google</span>
+                      </a>
+                      <a href="#" class="btn btn-primary btn-block py-2 btn-twitter">
+                        <i class="fab fa-twitter"></i>
+                          <span class="font-weight-bold">Login with Twitter</span>
+                      </a>
+                      <a href="#" class="btn btn-primary btn-block py-2 btn-linkdin">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="font-weight-bold">Login with Linkdin</span>
+                    </a>
+                    
+                  </div>
+
+                  <!-- Already Registered -->
+                  <div class="text-center w-100">
+                      <p class="text-muted font-weight-bold">Already Registered? <a href="login.html" class="text-primary ml-2">Login</a></p>
+                  </div>
+
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+      
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>TechAtom</h3>
+            <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+            <p>
+              C/O Sarewati <br> W/o Mohan Chandra Joshi<br>
+              Nainital,Uttarakhand,india(263139)<br><br>
+              <strong>Phone:</strong> +91 83758 74414<br>
+              <strong>Email:</strong> info@techatom.org<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>TUTORIALS</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Python 3 Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">JavaScript Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Java Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"> Kotlin Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C++ Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Swift Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C# Tutorial</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">DSA Tutorial</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>EXAMPLES</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Python Examples</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">JavaScript Examples</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C Examples</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Java Examples</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Kotlin Examples</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">C++ Examples</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Join our newsletter to get the latest tutorials and updates.</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Join">
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>TechAtom</span></strong>. All Rights Reserved
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
