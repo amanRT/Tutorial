@@ -710,6 +710,10 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+#img-fluid-feature{
+height: 32rem;
+width: 40rem;
+}
 .features .icon-box {
   display: flex;
   align-items: center;
