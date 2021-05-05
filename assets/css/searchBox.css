@@ -1,0 +1,59 @@
+
+.box{
+
+	width: 250px;
+
+	height: 15px;
+
+	background-color:  rgb(221, 231, 255);
+
+	border-radius: 20px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+
+}
+
+.box > i {
+
+	font-size: 15px;
+
+	color: #777;
+
+}
+
+.box > input{
+
+	flex: 2;
+
+	height: 25px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 17px;
+
+	padding-left: 10px;
+
+	background-color:rgb(221, 231, 255);
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
